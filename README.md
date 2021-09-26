@@ -22,7 +22,7 @@ The purpose of the analysis is to predict which applicants will be successful if
 - The model achieved target performance when the number of hidden layers was increased to 3.
 - Were you able to achieve the target model performance?
 - What steps did you take to try and increase model performance?
-[!image](https://github.com/vijayabme/Neural_Network_Charity_Analysis/blob/main/Resources/model_params.png)
-[!image](https://github.com/vijayabme/Neural_Network_Charity_Analysis/blob/main/Resources/target_accuracy.png)
+![image](https://github.com/vijayabme/Neural_Network_Charity_Analysis/blob/main/Resources/model_params.png)
+![image](https://github.com/vijayabme/Neural_Network_Charity_Analysis/blob/main/Resources/target_accuracy.png)
 #### Summary:
 
