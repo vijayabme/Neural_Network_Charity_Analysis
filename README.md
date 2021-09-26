@@ -7,22 +7,26 @@ The purpose of the analysis is to predict which applicants will be successful if
 #### Data Preprocessing
 - The column Is_successful is the target. It has a value of 1 if the applicant was sucessful or 0 if the applicant was not successful.
 - The following columns are used as input features for the neural net model
-  NAME
-  APPLICATION_TYPE—Alphabet Soup application type
-  AFFILIATION—Affiliated sector of industry
-  CLASSIFICATION—Government organization classification
-  USE_CASE—Use case for funding
-  ORGANIZATION—Organization type
-  STATUS—Active status
-  INCOME_AMT—Income classification
-  SPECIAL_CONSIDERATIONS—Special consideration for application
-  ASK_AMT—Funding amount requested  
+  1.NAME
+  2.APPLICATION_TYPE—Alphabet Soup application type
+  3.AFFILIATION—Affiliated sector of industry
+  4.CLASSIFICATION—Government organization classification
+  5.USE_CASE—Use case for funding
+  6.ORGANIZATION—Organization type
+  7.STATUS—Active status
+  8.INCOME_AMT—Income classification
+  9.SPECIAL_CONSIDERATIONS—Special consideration for application
+  20.ASK_AMT—Funding amount requested  
  - The identificatio columns "EIN" is neither target nor features.
 #### Compiling, Training, and Evaluating the Model
-- The model achieved target performance when the number of hidden layers was increased to 3.
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+- The model achieved target performance when the number of hidden layers was increased to 3. Below is the screenshot of the model parameters and accuracy.
 ![image](https://github.com/vijayabme/Neural_Network_Charity_Analysis/blob/main/Resources/model_params.png)
 ![image](https://github.com/vijayabme/Neural_Network_Charity_Analysis/blob/main/Resources/target_accuracy.png)
+- I tried the below methods to imrpove the accuracy
+  1. Adding the name column back into the features
+  2. Increasing the number of hidden layers   
+  3. Increasing the number of neurons in the hidden layers.
+  4. Using sigmoid as the activation function for the hidden layers as well as the output.
+- Random Forest classifier also reached the target performance. It gave an accuracy of 77.6%.
 #### Summary:
 
