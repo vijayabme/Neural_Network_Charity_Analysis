@@ -28,7 +28,7 @@ The purpose of the analysis is to predict which applicants will be successful if
   3. Increasing the number of neurons in the hidden layers.
   4. Using sigmoid as the activation function for the hidden layers as well as the output.
 
-#### Summary:
+## Summary:
 - The model significantly improved when we used a activation funcion such as sigmoid as its ideal for binary classification. 
 - Increasing the number of hidden layers and changing the number of neurons helped significantly in distinguishing the target variable. 
 - using a different classifier such as a Random Forest classifier also reached the target performance. It gave an accuracy of 77.6%.
